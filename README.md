@@ -1,5 +1,5 @@
 # levirecla.github.io
-## Introduction page :shipit:
+## Introductory Page
 
 **Below is a brief synopsis of my current education status**
 
