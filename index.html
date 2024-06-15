@@ -28,19 +28,15 @@
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        function applyFadeInEffect() {
             const sections = document.querySelectorAll('.fade-in');
             sections.forEach(section => {
                 section.classList.add('visible');
             });
-        });
+        }
 
-        window.addEventListener('pageshow', function() {
-            const sections = document.querySelectorAll('.fade-in');
-            sections.forEach(section => {
-                section.classList.add('visible');
-            });
-        });
+        document.addEventListener('DOMContentLoaded', applyFadeInEffect);
+        window.addEventListener('pageshow', applyFadeInEffect);
     </script>
 </body>
 </html>
