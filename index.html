@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -29,6 +30,10 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff6347;
         }
         .container {
             padding: 2rem;
@@ -39,6 +44,13 @@
         .section h2 {
             border-bottom: 2px solid #333;
             padding-bottom: 0.5rem;
+        }
+        .fade-in {
+            opacity: 0;
+            transition: opacity 2s;
+        }
+        .fade-in.visible {
+            opacity: 1;
         }
     </style>
 </head>
@@ -56,10 +68,19 @@
     </header>
 
     <div class="container">
-        <section id="about" class="section">
+        <section id="about" class="section fade-in">
             <h2>About Me</h2>
             <p>Hi! I'm Levi Recla, a passionate programmer with experience in various programming languages and technologies. I enjoy solving problems and building projects that make a difference.</p>
         </section>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.fade-in');
+            sections.forEach(section => {
+                section.classList.add('visible');
+            });
+        });
+    </script>
 </body>
 </html>
