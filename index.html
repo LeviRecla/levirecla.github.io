@@ -2,172 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Portfolio website for Levi Recla" />
+    <meta name="description" content="Levi Recla - Portfolio Home Page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Levi Recla - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet" />
+    <title>Levi Recla - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-brand">Levi Recla</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- HERO / ABOUT SECTION -->
-    <section id="about" class="section hero">
+    <section class="hero">
         <div class="hero-content">
-            <h1>Hello, I'm Levi Recla</h1>
-            <p>Computer Science Student | Machine Learning Enthusiast | Data Analyst</p>
-            <p>Boise, Idaho | <a href="mailto:LeviRecla@gmail.com">LeviRecla@gmail.com</a> | (208) 991-8662</p>
-            <a href="#projects" class="btn">View My Work</a>
+            <h1 class="name">Levi Recla</h1>
+            <nav class="nav-links">
+                <a href="about.html">About</a>
+                <a href="education.html">Education</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
     </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <div class="edu-block">
-            <h3>M.S. in Computer Science (In Progress) - Boise State University (Expected May 2026)</h3>
-            <ul>
-                <li>Manual conversion of legacy Fortran code to Python for self-absorption correction algorithms.</li>
-                <li>Focus on machine learning, AI, deep learning, and NLP for code language translation.</li>
-            </ul>
-        </div>
-        <div class="edu-block">
-            <h3>B.S. in Computer Science (In Progress) - Boise State University (Expected May 2025)</h3>
-            <ul>
-                <li>Proficient in software development, OOP, data structures, and agile methodologies.</li>
-                <li>Adapt quickly to new technologies using OOP, functional, and scripting languages.</li>
-            </ul>
-        </div>
-        <div class="edu-block">
-            <h3>Machine Learning - Boise State University</h3>
-            <ul>
-                <li>Relevant Coursework: AI, Machine Learning, Data Science, Natural Language Processing.</li>
-                <li>Experience with supervised, unsupervised, and reinforcement learning algorithms.</li>
-            </ul>
-        </div>
-        <div class="edu-block">
-            <h3>Minor in Physics (Completed 2024) - Boise State University</h3>
-            <ul>
-                <li>Strong mathematical foundation: calculus, differential equations, linear algebra.</li>
-                <li>Quantum Mechanics, Analog/Digital Electronics, and advanced problem-solving skills.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section">
-        <h2>Work Experience</h2>
-        <div class="exp-block">
-            <h3>Data Analyst Intern - Black Rock Coffee Bar (June 2024 - Sep 2024)</h3>
-            <ul>
-                <li>Cleaned and analyzed 12M+ records using NumPy, Pandas, Matplotlib, Jupyter.</li>
-                <li>Identified purchasing trends leading to new marketing strategies.</li>
-                <li>Presented findings to shareholders and advised on data-driven decisions.</li>
-            </ul>
-        </div>
-        <div class="exp-block">
-            <h3>Manager - Black Rock Coffee Bar (April 2018 - Current)</h3>
-            <ul>
-                <li>Managed a team of 15-20, oversaw hiring, budgeting, and operational efficiency.</li>
-                <li>Increased EBITDA to 56%, implemented inventory tracking via weekly par sheets.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>1-Dimensional Spectral Classification using JWST Data</h3>
-            <p><strong>Technologies:</strong> Python, Machine Learning</p>
-            <ul>
-                <li>Applied k-means clustering and decision trees to classify spectral data with 93% accuracy.</li>
-                <li>Utilized NIRSpec data from the JWST and leveraged Astroquery and Astropy for data extraction.</li>
-            </ul>
-        </div>
-        <div class="project-card">
-            <h3>Self Absorption Correction Translation</h3>
-            <p><strong>Technologies:</strong> Fortran, C, Python</p>
-            <ul>
-                <li>Converted legacy Fortran code to Python while maintaining efficiency and precision.</li>
-                <li>Integrated genetic algorithms for fitting Extended X-ray absorption fine structure.</li>
-            </ul>
-        </div>
-        <div class="project-card">
-            <h3>Houseplant Health Detector</h3>
-            <p><strong>Technologies:</strong> JavaScript, SQL, HTML, Arduino</p>
-            <ul>
-                <li>Built an IoT device with Arduino R4 Wi-Fi, DHT22 sensor, and photoresistor for light level measurement.</li>
-                <li>Compared sensor values against SQL database thresholds for plant health indicators.</li>
-            </ul>
-        </div>
-        <div class="project-card">
-            <h3>Bioinformatics Using B-Tree Data Structure</h3>
-            <p><strong>Technologies:</strong> Java, SQL</p>
-            <ul>
-                <li>Stored and managed DNA sequences in a B-Tree and SQL database for efficient lookup.</li>
-                <li>Managed agile development cycle, used GitHub project boards, ensured timely project completion.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section">
-        <h2>Skills & Tools</h2>
-        <div class="skills-container">
-            <div class="skill-group">
-                <h3>Programming Languages</h3>
-                <p>Java, Python, C, JavaScript, Fortran</p>
-            </div>
-            <div class="skill-group">
-                <h3>Web Technologies</h3>
-                <p>HTML, CSS, SQL, React</p>
-            </div>
-            <div class="skill-group">
-                <h3>Tools & Methodologies</h3>
-                <p>Linux, Git, GitHub, Command Line, Scrum, Agile</p>
-            </div>
-            <div class="skill-group">
-                <h3>Machine Learning</h3>
-                <p>Scikit-learn, TensorFlow, Supervised/Unsupervised/Reinforcement Learning</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CLUBS & CERTIFICATIONS -->
-    <section class="section">
-        <h2>Clubs, Associations & Certificates</h2>
-        <ul>
-            <li>Data Science for the Sciences Certificate (Boise State University)</li>
-            <li>Association for Computing Machinery – Student Member (2022)</li>
-            <li>Boise State University AI Club – Member (2022)</li>
-            <li>Dean’s List with High Honors (Fall 2023, Spring 2024, Fall 2024)</li>
-        </ul>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact-section">
-        <h2>Contact</h2>
-        <p>Interested in working together or learning more?</p>
-        <p><a href="mailto:LeviRecla@gmail.com">LeviRecla@gmail.com</a></p>
-        <p>Boise, Idaho | (208) 991-8662</p>
-        <p>Check out my <a href="https://github.com/YourGitHubProfile" target="_blank">GitHub</a> or <a href="https://www.linkedin.com/YourLinkedInProfile" target="_blank">LinkedIn</a>.</p>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 Levi Recla. All rights reserved.</p>
-    </footer>
 </body>
 </html>
