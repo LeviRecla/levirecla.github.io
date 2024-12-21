@@ -1,76 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    position: relative;
+    position: sticky;
+    top: 0;
+    background: #f5f5f5;
+    z-index: 999;
 }
 
-.home-button {
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #fff;
-    color: #333;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 0.25rem;
-    transition: background-color 0.3s, color 0.3s;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
 }
 
-.home-button:hover {
-    background-color: #333;
-    color: #fff;
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.2em;
 }
 
-nav ul {
+.nav-links {
     list-style: none;
-    padding: 0;
+    display: flex;
+    gap: 1em;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
+.nav-links li a {
     text-decoration: none;
+    color: #333;
+    font-weight: 500;
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #ff6347;
-}
-
-.container {
-    padding: 2rem;
+.nav-links li a:hover {
+    color: #0077cc;
 }
 
 .section {
-    margin-bottom: 2rem;
+    padding: 3em 2em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
+.hero {
+    background: #eef6ff;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
-.fade-in {
-    opacity: 0;
-    transition: opacity 2s;
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
-.fade-in.visible {
-    opacity: 1;
+.hero p {
+    margin: 0.5em 0;
+}
+
+.btn {
+    background: #0077cc;
+    color: #fff;
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
+.edu-block, .exp-block, .project-card {
+    margin-bottom: 2em;
+}
+
+.edu-block h3, .exp-block h3, .project-card h3 {
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.skill-group h3 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.contact-section {
+    text-align: center;
+}
+
+.footer {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+    margin-top: 2em;
 }
