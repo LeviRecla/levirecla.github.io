@@ -255,4 +255,13 @@ html, body {
   object-fit: cover;         /* Ensures the image covers the whole container if cropping is needed */
 }
 
+.language-section {
+  margin-bottom: 40px; /* Extra space between language blocks */
+}
+
+.language-section h2 {
+  margin-bottom: 15px; /* Some spacing after the language heading */
+}
+
+
   
