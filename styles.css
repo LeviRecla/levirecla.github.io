@@ -193,4 +193,56 @@ html, body {
       padding: 1rem;
     }
   }
+
+  /* Center the content and set a reasonable width */
+.content-section {
+  max-width: 800px;          /* Adjust to your preferred width */
+  margin: 0 auto;            /* Centers the section horizontally */
+  padding: 20px;             /* Some padding around your text */
+}
+
+/* Text bubble styling */
+.chat-bubble {
+  background-color: #f4f4f4; /* Light gray background (adjust as desired) */
+  border-radius: 10px;       /* Rounded corners for the bubble */
+  padding: 15px;             /* Space inside the bubble */
+  margin-bottom: 20px;       /* Spacing between bubbles */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow, optional */
+}
+
+/* Ensure p or ul inside the bubble are nicely spaced */
+.chat-bubble p,
+.chat-bubble ul {
+  margin: 0;                 /* Remove default margins to rely on bubble spacing */
+  line-height: 1.5;          /* Better readability */
+}
+
+/* Optional: style for the header if you’d like to keep it consistent */
+.header-bar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-logo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Hover states for navigation links, optional */
+.header-nav a:hover {
+  text-decoration: underline;
+}
+
   
