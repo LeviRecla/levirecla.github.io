@@ -245,4 +245,14 @@ html, body {
   text-decoration: underline;
 }
 
+/* Profile photo styling */
+.profile-photo {
+  display: block;            /* Allows margin: 0 auto to center the image */
+  margin: 0 auto 20px;       /* Centers horizontally + adds space below the image */
+  max-width: 200px;          /* Limit the width so it doesn’t get too large */
+  border-radius: 50%;        /* Makes the image circular if it’s originally square */
+  border: 3px solid #ccc;    /* Optional border for a clean look */
+  object-fit: cover;         /* Ensures the image covers the whole container if cropping is needed */
+}
+
   
