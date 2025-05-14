@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Sabcor Translation Project Details - Levi Recla" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabcor Translation Project - Levi Recla</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header-bar">
+    <div class="header-logo">
+      <a href="index.html">Levi Recla</a>
+    </div>
+    <nav class="header-nav">
+      <a href="about.html">About</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="content-section">
+    <h1>Modernizing Legacy Scientific Code</h1>
+
+    <p>
+      <span class="award-badge">Excellence in Undergraduate Research and Creative Activity Award</span>
+    </p>
+
+    <p>
+      This project involved manually translating approximately 20,000 lines of legacy Fortran code into efficient, modular Python. 
+      The original code was used for self-absorption correction in Extended X-ray Absorption Fine Structure (EXAFS) analysis — a critical process 
+      in materials characterization and spectroscopy research.
+    </p>
+
+    <h2>Context & Motivation</h2>
+    <p>
+      The legacy Fortran routines originated from RSXAP, a research toolkit that lacked maintainability and integration with modern scientific workflows. 
+      I sought to preserve its scientific integrity while making it accessible to contemporary researchers using Python.
+    </p>
+
+    <h2>Challenges</h2>
+    <ul>
+      <li>Deciphering nested subroutines, COMMON blocks, and implicit variable declarations in Fortran</li>
+      <li>Ensuring numerical accuracy through test-driven translation</li>
+      <li>Maintaining the performance needed for handling real-world EXAFS datasets</li>
+    </ul>
+
+    <h2>Results & Impact</h2>
+    <p>
+      The completed Python implementation retains scientific correctness while improving readability, modularity, and integration with tools like NumPy and SciPy. 
+      It laid the groundwork for a larger research initiative focused on automating Fortran-to-Python code translation using language models and fine-tuning techniques.
+    </p>
+
+    <p>
+      This project was presented at the <strong>2025 Boise State Undergraduate Research Showcase</strong> and archived on ScholarWorks.
+    </p>
+
+    <div style="margin-top: 20px;">
+      <a href="https://github.com/laumiulun/Sabcor" target="_blank" class="github-button">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+      <a href="https://scholarworks.boisestate.edu/under_showcase_2025/159/" target="_blank" class="btn-link" style="margin-left: 15px;">
+        View on ScholarWorks
+      </a>
+    </div>
+  </section>
+</body>
+</html>
