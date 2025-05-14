@@ -267,19 +267,28 @@ html, body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 12px;
-  margin-top: 8px;
+  padding: 8px 14px;
   background-color: #24292e;
   color: white;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
-  transition: background-color 0.2s ease;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-top: 10px;
 }
 
 .github-button:hover {
-  background-color: #333;
+  background-color: #1b1f23;
+  transform: translateY(-1px);
+  text-decoration: none;
+  cursor: pointer;
 }
+
+.github-button i {
+  font-size: 1rem;
+}
+
 
 
 
