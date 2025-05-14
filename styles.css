@@ -263,5 +263,24 @@ html, body {
   margin-bottom: 15px; /* Some spacing after the language heading */
 }
 
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  margin-top: 8px;
+  background-color: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.github-button:hover {
+  background-color: #333;
+}
+
+
 
   
