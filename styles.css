@@ -316,29 +316,6 @@ html, body {
   margin-top: 6px;
 }
 
-.hero-content-with-image {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
-}
-
-.hero-text {
-  flex: 1;
-  min-width: 250px;
-}
-.hero-image img {
-  max-width: 300px; /* limits width */
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  object-fit: cover;
-}
-
 
 
 
