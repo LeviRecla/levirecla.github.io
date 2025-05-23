@@ -315,6 +315,25 @@ html, body {
   font-weight: 600;
   margin-top: 6px;
 }
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease-in-out;
+  filter: invert(30%); /* gives a neutral dark look */
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  filter: invert(50%) sepia(80%) saturate(500%) hue-rotate(200deg);
+}
+
 
 
 
