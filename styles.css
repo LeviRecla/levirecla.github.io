@@ -330,13 +330,15 @@ html, body {
   flex: 1;
   min-width: 250px;
 }
-
 .hero-image img {
-  width: 300px;
+  max-width: 300px; /* limits width */
+  width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
 }
+
 
 
 
